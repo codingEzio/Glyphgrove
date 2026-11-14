@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Package the checked-in private Pixel Web assets for another local project."""
+"""Package the checked-in GlyphgrovePixel Web fonts and notices."""
 import argparse
 import hashlib
 import json
@@ -60,7 +60,7 @@ def main():
         shutil.copytree(web / 'licenses', stage / 'licenses')
         entries = {p.relative_to(stage).as_posix(): {'sha256': sha(p), 'bytes': p.stat().st_size}
                    for p in sorted(stage.rglob('*')) if p.is_file()}
-        manifest = {'schemaVersion': 1, 'family': 'GlyphgrovePixel', 'scope': 'private local project use',
+        manifest = {'schemaVersion': 1, 'family': 'GlyphgrovePixel', 'scope': 'public web font package',
                     'sourceRecipeSha256': sha(ROOT / 'recipe.json'), 'fonts': {n: entries['fonts/' + n] for n in FILES},
                     'nerdCmapCount': len(nerd.getBestCmap()), 'emojiBitmapCount': 3994,
                     'files': entries}
