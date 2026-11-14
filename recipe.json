@@ -1,0 +1,45 @@
+{
+  "version": "0.3.0",
+  "spacing": {
+    "sourceCell": 600,
+    "cell": 570,
+    "cjkCells": 2,
+    "nerdCells": 2,
+    "emojiCells": 2,
+    "policy": "Latin 570; Han 1106; symbols and emoji 1140",
+    "hanAdvance": {
+      "cubic": 1106
+    }
+  },
+  "emojiRecipe": {
+    "sourcePpem": 55,
+    "targetPpem": 28,
+    "paletteColors": 64,
+    "coverage": "all source cmap and GSUB; no repertoire subsetting",
+    "maxFontBytes": 16000000,
+    "pngPolicy": "Lanczos RGBA at 28 PPEM, per-image 64-color alpha palette; all source glyphs retained"
+  },
+  "symbolAliases": {
+    "EA00": "F099"
+  },
+  "faces": [
+    {
+      "style": "Regular",
+      "file": "RysanaMono-Variable.woff2",
+      "sha256": "92245be67991af1b267142393264b7157becdbc51a90a5ac7c40aa609dafc45b"
+    },
+    {
+      "style": "Italic",
+      "file": "RysanaMono-VariableItalic.woff2",
+      "sha256": "33cc79899837fceacd7d8d8e76bca52d90248059612ba998ac3d3d35de87fda0"
+    }
+  ],
+  "inputSha256": {
+    "RysanaMono-Variable.woff2": "92245be67991af1b267142393264b7157becdbc51a90a5ac7c40aa609dafc45b",
+    "RysanaMono-VariableItalic.woff2": "33cc79899837fceacd7d8d8e76bca52d90248059612ba998ac3d3d35de87fda0",
+    "Cubic_11.ttf": "0193f5f033612496df6b45ee92ac3b335bc6a5a24ff95da55ca87b33e57dcf62",
+    "SymbolsNerdFontMono-Regular.ttf": "fe471e538392f51910faab985fa8e192a39dd3426125edd15b71b3680df0e749",
+    "Noto3D-64.ttf": "81fd6b01bde93e4d7afa0aab4fbcfd915b2e9e1b0e55188c6e8e1a2571b14ab3"
+  },
+  "preparedEmojiSha256": "5fd2c8efc2a26704e7f6b505aa504d0c43dd1a6d2aa61b9eaa63465b0cabb55c"
+}

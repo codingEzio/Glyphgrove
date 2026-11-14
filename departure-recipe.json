@@ -1,0 +1,15 @@
+{
+  "family": "GlyphgroveDeparture",
+  "version": "0.1.0-private-experiment",
+  "base": "DeparturePixelZh Compact 0.1.1",
+  "baseSha256": "3e75e623b1ba2c8d7eb52f2ac3ee71c3fbb5c4e0f1426bd34b3c1e071738288b",
+  "coverageSha256": "66b1491736cc528573b3bd7fc42d5cdb5510746c2693bfaa1f2348b135962b41",
+  "emojiSha256": "5fd2c8efc2a26704e7f6b505aa504d0c43dd1a6d2aa61b9eaa63465b0cabb55c",
+  "emojiPpem": 28,
+  "cell": 650,
+  "hanCell": 1300,
+  "boldStroke": 40,
+  "italicShear": 0.16,
+  "stylePolicy": "Experimentally synthesize text bold and italic while retaining source advances; Nerd glyphs and emoji shapes are not styled.",
+  "styles": [{"style":"Regular","weight":400,"italic":false,"bold":false},{"style":"Italic","weight":400,"italic":true,"bold":false},{"style":"Bold","weight":700,"italic":false,"bold":true},{"style":"Bold Italic","weight":700,"italic":true,"bold":true}]
+}
